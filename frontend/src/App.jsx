@@ -52,7 +52,7 @@ function App() {
   const registerUser = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:5000/register",
+      "https://nexivio-1.onrender.com/register",
       {
         method: "POST",
 
@@ -80,7 +80,7 @@ function App() {
   const loginUser = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:5000/login",
+      "https://nexivio-1.onrender.com/login",
       {
         method: "POST",
 
@@ -125,7 +125,7 @@ function App() {
     formData.append("resume", file);
 
     const response = await fetch(
-      "http://127.0.0.1:5000/upload-resume",
+      "https://nexivio-1.onrender.com/upload-resume",
       {
         method: "POST",
         body: formData,
@@ -144,7 +144,7 @@ function App() {
   const analyzeResume = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:5000/analyze",
+      "https://nexivio-1.onrender.com/analyze",
       {
         method: "POST",
 
@@ -173,7 +173,7 @@ function App() {
   const generateQuestions = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:5000/generate-questions",
+      "https://nexivio-1.onrender.com/generate-questions",
       {
         method: "POST",
 
@@ -200,7 +200,7 @@ function App() {
   const generateTimesheet = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:5000/generate-timesheet",
+      "https://nexivio-1.onrender.com/generate-timesheet",
       {
         method: "POST",
 
